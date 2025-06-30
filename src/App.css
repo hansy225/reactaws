@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Noto Serif KR', 'Playfair Display', serif !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.main-bg {
+  height: 400px;
+  /* background-image: url("./img/main_bg.png"); */
+
+  /* bublic/img에 이미지를 넣었을 때 */
+  background-image: url('../public/img/main-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 60px;
+  border-bottom: 2px solid rgb(240, 178, 21);
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.btn {
+  margin-bottom: 30px;
+}
+
+.list > img :hover {
+  cursor: pointer;
+}
+
+/* 상세페이지 스타일 */
+.detail {
+  padding: 50px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.detail_img img {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.detail_text {
+  margin-top: 30px;
+}
+
+.detail_text h3 {
+  font-size: 1.5rem;
+  color: var(--ysl-black);
+}
+
+.detail_text p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.deNav {
+  margin-top: 30px;
+}
+
+.tab-box {
+  margin-bottom: 50px;
+}
+
+/* 애니메이션 주기 */
+.start {
+  opacity: 0;
+}
+
+.end {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+/* 최근 본 상품 */
+.recent-table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* 푸터 */
+.footer { 
+  background-color: rgb(33,37,41);
+  color: #fff;
+  padding: 20px 60px;
+  text-align: left;
+  font-size: 0.8em;
+  margin-top: 50px;
+}
